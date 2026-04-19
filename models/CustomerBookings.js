@@ -1,5 +1,4 @@
-(module,
-  (exports = (sq, datatypes) => {
+module.exports = (sq, datatypes) => {
     const CustomerBookings = sq.define(
       "CustomerBookings",
       {
@@ -34,4 +33,4 @@
     };
 
     return CustomerBookings;
-  }));
+  };

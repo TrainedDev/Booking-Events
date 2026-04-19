@@ -1,4 +1,4 @@
-const { registerService, loginService } = require("../services/authService");
+const { registerService, loginService } = require("../services/authServices");
 const appError = require("../utils/appError");
 
 exports.register = async (req, res) => {
